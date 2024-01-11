@@ -85,7 +85,7 @@
               "localize": [
                 "en"
               ],
-              "baseHref": "/en/"
+              "baseHref": "/"
             }
           },
           "defaultConfiguration": "production"

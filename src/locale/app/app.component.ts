@@ -5,7 +5,7 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterModule ],
+  imports: [CommonModule, RouterOutlet, RouterModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
@@ -28,7 +28,6 @@ export class AppComponent {
     },
   ];
 
-
   updateUrl(culture?: string) {
     const currentLocale = $localize.locale!;
     const supportedLocales = ['de', 'es', 'fr']; 
@@ -44,6 +43,4 @@ export class AppComponent {
     } 
     location.href = url; 
   }
-
-
 }

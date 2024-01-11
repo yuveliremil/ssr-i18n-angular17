@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.px-2 {
+    padding: 0 16px;
+}
+button.lang {
+    background-color: #4B0082;
+    color: #fff;
+    border: 0;
+    margin: 0 8px 16px 0;
+    padding: 4px;
+    width: 80px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
